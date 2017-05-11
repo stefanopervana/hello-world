@@ -20,7 +20,15 @@ export default ({ children, title = 'This is the default title' }) => (
         <Link href='/ElDom'><a>El Dom</a></Link> |
         <Link href='/GetEle'><a>GetElement</a></Link> |
         <Link href='/Parent'><a>ParentNode</a></Link> |
-        <Link href='/EjempPar'><a>EjemplosParent</a></Link> |
+        <Link href='/EjempPar'><a>EjemplosParent</a></Link> |<br></br>
+        <Link href='/JSX1'><a>JSX 1</a></Link> |
+        <Link href='/JSX2'><a>JSX 2</a></Link> |
+        <Link href='/JSX3'><a>JSX 3</a></Link> |<br></br>
+        <Link href='/ProFun'><a>Programación Funcional</a></Link> |
+        <Link href='/AbismoNull'><a>Abismo Null</a></Link> |
+         <Link href='ANLasFunciones'><a>Las Funciones</a></Link> |
+         <Link href='MetodosFun'><a>Los Metodos Funcionales</a></Link> |
+         <Link href='Recursi'><a>La Recursividad</a></Link> |
       </nav>
     </header>
 

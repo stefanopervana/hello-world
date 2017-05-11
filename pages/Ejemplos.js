@@ -139,8 +139,8 @@ export default () => (
     &lt;button onclick="operar('dividir');"&gt;/&lt;/button&gt;
         `}</code></pre>
     <p>Cualquiera de los botones lanza la función. Ésta primero recoge los valores de los campos —veremos <a><code>getElementById</code> más adelante</a>, al igual que lo que es <code>eval()</code> al tratar <a>el objeto <i>Global</i></a>—, que es algo que tiene que hacer para cualquier caso. Después el <code>switch</code> busca la coincidencia del argumento enviado con los casos, y en cuanto ésta se da la comprobación se rompe —<code>break</code>—. Por último, a la caja de resultados se le asigna el valor final.</p>
-        <p class="resultados"><textarea cols="30" rows="2" id="total" name="total"></textarea></p>
-        <p class="boton"><label for="campo_01">Introduzca un número: </label><input id="campo_01" name="campo_01" size="3"></input> <label for="campo_02">Introduzca otro número: </label><input id="campo_02" name="campo_02" size="3"></input> <button onclick="operar('sumar');">+</button><button onclick="operar('restar');">–</button><button onclick="operar('multiplicar');">x</button><button onclick="operar('dividir');">/</button></p>
+        <p className="resultados"><textarea cols="30" rows="2" id="total" name="total"></textarea></p>
+        <p className="boton"><label for="campo_01">Introduzca un número: </label><input id="campo_01" name="campo_01" size="3"></input> <label for="campo_02">Introduzca otro número: </label><input id="campo_02" name="campo_02" size="3"></input> <button onclick="operar('sumar');">+</button><button onclick="operar('restar');">–</button><button onclick="operar('multiplicar');">x</button><button onclick="operar('dividir');">/</button></p>
         <h2>Un ejemplo de función al que se envían dos argumentos, y que devuelve un valor por medio de <code>return</code></h2>
         <p>Ahora vamos a crear una tabla con un vínculo en cada celda. Cuando el usuario haga clic en el vínculo, se lanzará un mensaje de alerta que indicará la columna y la fila correspondientes.</p>
         <p>La función es la siguiente:</p>

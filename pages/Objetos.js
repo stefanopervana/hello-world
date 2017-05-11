@@ -314,7 +314,7 @@ export default () => (
                 </tr>
                 <tr>
                     <td><code>getTimezoneOffset</code></td>
-                    <td>Devuelve los minutos de diferencia entre la hora local y el <abbr title="Tiempo Universal Coordinado">UTC</abbr><sup class="nota"><a href="#nota01" id="texto01">1</a></sup>.</td>
+                    <td>Devuelve los minutos de diferencia entre la hora local y el <abbr title="Tiempo Universal Coordinado">UTC</abbr><sup className="nota"><a href="#nota01" id="texto01">1</a></sup>.</td>
                 </tr>
                 <tr>
                     <td><code>getUTCDate</code></td>
@@ -457,7 +457,7 @@ export default () => (
                 </tr>
             </tbody></table>
             <p>En <a href="js/ejemplos_metodos_string.php" id="v-ejs-metodos-string">los ejemplos de estos métodos</a> empleo <code>match</code>, <code>replace</code> y <code>search</code> para buscar una cadena simple y explicar con ello su funcionamiento, pero cuando resultan más útiles es cuando se emplean no con una cadena simple, sino con una <dfn>expresión regular</dfn>, que es un patrón que describe de forma abstracta una cadena literal. No vamos a tratar de las expresiones regulares en esta introducción a JavaScript, pero intentaré explicarlas en algún momento, en alguna otra parte.</p>
-            <p class="nota-importante"><strong>Actualización del 13 de enero de 2008:</strong> Por fin <a href="../articulos/2008/exp_regulares_1.php" title="Artículo: «Expresiones regulares (1)»">he escrito algo sobre el tema</a>.</p>
+            <p className="nota-importante"><strong>Actualización del 13 de enero de 2008:</strong> Por fin <a href="../articulos/2008/exp_regulares_1.php" title="Artículo: «Expresiones regulares (1)»">he escrito algo sobre el tema</a>.</p>
             <h2 id="obj-global"><i>Global</i></h2>
             <p><i>Global</i> es un objeto especial porque, como tal, no existe. Si, por ejemplo, lanzamos esta alerta:</p>
             <pre><code>
